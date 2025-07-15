@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Invitation Admin App
 
-## Getting Started
+¡Bienvenido a **Invitation Admin App**!  
+Esta es una aplicación web desarrollada en Next.js (TypeScript) + Tailwind CSS que te permite gestionar invitaciones para cualquier evento y consultar en tiempo real quiénes han confirmado su asistencia.
 
-First, run the development server:
+## ✨ Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Panel de Invitaciones:** Visualiza la lista completa de invitados.
+- **Seguimiento de Confirmaciones:** Consulta quiénes ya han confirmado su asistencia y quiénes faltan por responder.
+- **Búsqueda y Filtros:** Encuentra rápidamente invitados por nombre o estado de confirmación.
+- **Interfaz amigable:** UI responsiva, moderna y personalizable.
+- **Gestión Segura:** Solo usuarios autenticados pueden acceder a la administración.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tecnologías usadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/) (v14+)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/) (componentes UI)
+- [Prisma, MongoDB, PostgreSQL, MySQL, etc.] (Agrega tu DB si aplica)
+- [Autenticación NextAuth, Clerk, Auth.js, etc.] (Si aplica)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Instalación y ejecución
 
-## Learn More
+1. **Clona el repositorio:**
+    ```bash
+    git clone https://github.com/tuusuario/invitation-admin-app.git
+    cd invitation-admin-app
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Instala dependencias:**
+    ```bash
+    npm install
+    # o
+    pnpm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Configura tus variables de entorno:**  
+    Copia el archivo `.env.example` a `.env` y completa los valores requeridos (por ejemplo, conexión a base de datos).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Inicia la app en modo desarrollo:**
+    ```bash
+    npm run dev
+    ```
 
-## Deploy on Vercel
+5. **Abre en tu navegador:**  
+    [http://localhost:3000](http://localhost:3000)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Scripts útiles
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev` — Inicia el servidor en modo desarrollo
+- `npm run build` — Genera el build para producción
+- `npm start` — Inicia el build en modo producción
+- `npm run lint` — Corre linter para código limpio
+- 
+
+## 💡 Personalización
+
+- Cambia los colores, logo y textos en `/app/styles/globals.css` y componentes.
+- Agrega nuevos campos para los invitados según tus necesidades.
+
+## 📃 Licencia
+
+Este proyecto es de uso interno/privado.  
+
+---
+
+¿Dudas, sugerencias o quieres contribuir? ¡Abre un issue o contáctanos!
